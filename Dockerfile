@@ -6,3 +6,4 @@ RUN set -x \
   && tar -xz -C /tmp -f /tmp/docker-$VER.tgz \
   && mv /tmp/docker/* /usr/bin \
   && mkdir /tmp/build
+  && npm i -g grunt-cli
